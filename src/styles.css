@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-image: url("https://wallpapercave.com/wp/wp1815737.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  width: 40%;
+  height: 60px;
+  border-radius: 100px;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border: 10px solid rgb(59, 53, 109);
+  margin: 2rem 0;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: rgb(255, 251, 0);
+}
+.emojiShow {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5vw;
+  background-color: rgba(59, 53, 109, 0.6);
+  border-radius: 10px;
+}
+.emojiShow_item {
+  font-size: 3rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
